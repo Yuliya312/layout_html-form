@@ -1,0 +1,34 @@
+input,
+label,
+textarea {
+  margin-bottom: 10px;
+}
+
+input:last-child {
+  margin-bottom: 0;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
+
+.interest {
+  padding-bottom: 0;
+}
+
+.cats {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.cars {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-top: 10px;
+}
+
+.rate {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
