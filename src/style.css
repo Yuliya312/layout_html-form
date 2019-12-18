@@ -1,10 +1,13 @@
 input,
 label,
-textarea {
+div {
   margin-bottom: 10px;
 }
 
-input:last-child {
+.agreement,
+label[for="agreement"],
+input:last-child,
+.bed-time {
   margin-bottom: 0;
 }
 
@@ -31,4 +34,14 @@ fieldset {
 .rate {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+label[for="comments"] {
+  display: flex;
+  align-items: flex-end;
+}
+
+textarea {
+  margin-left: 3px;
+  margin-top: 4px;
 }
